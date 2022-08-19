@@ -41,7 +41,7 @@ if( faveNum === 13){
   console.log('Lucky 13!')
 } else if(faveNum !== 13){
   console.log('not lucky 13')
-}
+} else 
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +51,8 @@ if( faveNum === 13){
 //CODE HERE
 /* i am going to set this up with an for() then I will set i to eqaul my faveNums then i would set i less then 5 because we want it to run 5 times
 then i woul use i++ to making it add i 5 times. to make this all work i will console.log(i) this will make " faveNum" pop up 5 times*/
-for(let i = faveNum; i < 5; i++){
-    console.log(i)
+for(let i = faveNum; i <= 13; i++){
+    
+  console.log(i)
+
    }
