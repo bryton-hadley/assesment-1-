@@ -24,9 +24,9 @@ console.log(faveColors)
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-  let middleNums = []
-
-  for(i =)
+  let middleNums = numbers.splice(2, 4)
+  console.log(middleNums)
+  
 
 
 //////////////////PROBLEM 4////////////////////
