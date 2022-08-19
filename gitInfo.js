@@ -73,7 +73,7 @@ let gitAddCode = "git add ."
 //CODE HERE
 let gitCommitDefinition = " this takes what you want to add to the reposty and acually adds and save the info undr the name you select "
 
-let gitCommitCode = " get commit -m "b" "
+let gitCommitCode = ' get commit -m " " '
 
 
 //////////////////PROBLEM 8////////////////////
