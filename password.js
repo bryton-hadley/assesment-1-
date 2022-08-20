@@ -1,7 +1,9 @@
-let password = 'bhm3113'
+let password = 'Pirate1331'
+
 // checks varibles to make sure requirements are met 
 
-let minChars = false
+let minChar = false
+let upperCase = false
 
 
 for(let i = 0; i < password.length; i++){
@@ -9,7 +11,7 @@ for(let i = 0; i < password.length; i++){
 }
 //check that password meets minimum characters 
 if(password >= 10){
-minChars = true
-}
+minChar = true
+} else if()
 
 console.log(minChars)
