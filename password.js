@@ -11,11 +11,13 @@ let numCheck = false
 // I will use a for loop to check the requirments are met for numcheck by using for()
 
 for(let i = 0; i < password.length; i++){
-    console.log(password[i] * 1)
+    console.log(password[i].toUpperCase())
     if(password[i] !== NaN){
         numCheck = true
     }
-    if(password[i] === )
+    if(password[i] === password[i].toUpperCase()){
+        upperCase = true
+    }
 }
 
 //check that password meets minimum characters 
